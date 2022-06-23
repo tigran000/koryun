@@ -15,7 +15,9 @@ function User({ id, name, lastName, isEditMode }) {
       }}
     >
       {isEditMode ? <input value={`${name} ${lastName}`} /> :
-      <div>{`${name} ${lastName}`}</div>}
+      <div style={{
+        color: 'red',
+      }}>{`${name} ${lastName}`}</div>}
       <div>{id}</div>
       <button onClick={() => dispatch({type: EDIT_MODE, payload: { id } })}> EDIT </button>
     </div>
