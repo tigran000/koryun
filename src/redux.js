@@ -6,14 +6,14 @@ const initialUser = [
       isEditMode: false
     },
     { id: 2, 
-      name: "Koryun",
+      name: "Koryun22222",
       lastName: "Avetisyan",
       isEditMode: false
     },
     {
       id: 3,
-      name: "Arman",
-      lastName: "Dashyan",
+      name: "Narek",
+      lastName: "Narek",
       isEditMode: false
     },
   ];
